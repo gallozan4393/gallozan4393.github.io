@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+	<h1><img src="web.jpg" width="100" height="100"><strong>Welcome to My Website!!</strong></h1>
+	
+</head>
+  
+<!-- Navigation Bar -->
+     <strong>Home</strong>&nbsp;&nbsp;
+     <strong>Content</strong>&nbsp;&nbsp;
+     <strong>Forum</strong>&nbsp;&nbsp;
+     <strong>Google</strong>
+  
+
+  <!--Form-->
+<body>
+<h2>Programming Survey</h2>
+
+<form action="/action_page.php">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  </form> 
+
+<!-- Drop down field-->
+<label for="programs">Select your favorite programming language:</label>
+<select id="programs" name="cars">
+  <option value="JavaScript">JavaScript</option>
+  <option value="HTML">HTML</option>
+  <option value="CSS">CSS</option>
+ </select>
+
+<!--Radio buttons-->
+
+<form action="/action_page.php">
+  
+  <p>Years of Programming Language:</p>
+  <input type="radio" id="age1" name="age" value="2">
+  <label for="age1">0-2 years</label><br>
+  <input type="radio" id="age3" name="age" value="5">
+  <label for="age2">3-5 years</label><br>  
+  <input type="radio" id="age6" name="age" value="10">
+  <label for="age3">6-10 years</label><br>
+  <input type="radio" id="age10" name="age" value="100">
+  <label for="age1">10+ years</label><br>
+  
+  </form>
+
+
+<!--Commenting Area-->
+
+<form action="/action_page.php" id="usrform">
+    
+</form>
+<br>
+<textarea rows="4" cols="50" name="comment" form="usrform">
+Enter your comment here...</textarea>
+
+<input type="submit"><input type="reset">
+
+<!--Submit and Reset button-->
+
+
+<!--Copyrights-->
+<p>Copyright&nbsp&copy2024
+ <a href="mailto:gallozan4393@faytechcc.edu">Contact Us!</a></p>
+
+</body>
+</html>
